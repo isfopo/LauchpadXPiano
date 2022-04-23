@@ -9,7 +9,7 @@ from _Framework.ButtonElement import ButtonElement
 from .mappings import types, BUTTONCHANNEL, SLIDERCHANNEL
 
 
-class RemoteScriptStarter(ControlSurface):
+class LaunchpadXPiano(ControlSurface):
     __module__ = __name__
     __doc__ = "Simple Starter Script"
 

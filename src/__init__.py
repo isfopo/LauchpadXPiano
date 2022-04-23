@@ -1,6 +1,6 @@
-from .RemoteScriptStarter import RemoteScriptStarter
+from .LaunchpadXPiano import LaunchpadXPiano
 
 
 def create_instance(c_instance):
     ''' Creates and returns Remote Script instance '''
-    return RemoteScriptStarter(c_instance)
+    return LaunchpadXPiano(c_instance)
